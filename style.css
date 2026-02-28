@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(39, 39, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cartao {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(88, 88, 169);
+}
+ul{
+    color: rgb(1, 1, 1);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    padding: 15px;
+}
+h4 {
+    color: black;
+    padding-bottom: 20px;
+}
+button {
+    background-color: #f7a80a;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color:#b66717
+}
+.imagem {
+    width: 120px;
+    height: 100px;
+}
+.roboto {
+font-family: "Roboto", sans-serif;
+font-optical-sizing: auto;
+font-weight: 150;
+font-style: normal;
+font-variation-settings:
+    "wdth" 100;
+}
